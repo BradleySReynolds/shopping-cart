@@ -1,0 +1,13 @@
+.btn {
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.btn:hover {
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.05);
+}

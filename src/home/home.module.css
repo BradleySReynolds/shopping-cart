@@ -1,0 +1,60 @@
+.main {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/chan-hoi-uj-w-v7OFT4-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10rem;
+}
+
+.header {
+  font-size: 52px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.para {
+  font-size: 22px;
+  width: 60%;
+  text-align: center;
+  margin: 1rem;
+  line-height: 2rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .main {
+    padding: 10rem 5rem;
+  }
+
+  .header {
+    width: 100%;
+    font-size: 42px;
+  }
+
+  .para {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .main {
+    padding: 10rem 0;
+  }
+
+  .header {
+    width: 100%;
+    font-size: 42px;
+  }
+
+  .para {
+    margin-top: 2rem;
+    font-size: 18px;
+  }
+}

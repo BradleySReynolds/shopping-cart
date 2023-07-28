@@ -1,0 +1,39 @@
+.card {
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem;
+  padding: 2rem 0;
+  background-color: white;
+}
+
+.image {
+  height: 200px;
+  width: auto;
+}
+
+.title {
+  font-size: 22px;
+  padding: 2rem 0;
+  text-align: center;
+  max-width: 75%;
+}
+
+.price {
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    margin: 1rem 0.25rem;
+    padding: 1rem 0.25rem;
+  }
+
+  .image {
+    height: 150px;
+  }
+}
